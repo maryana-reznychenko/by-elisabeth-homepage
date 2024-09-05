@@ -6,8 +6,10 @@ import SectionAbout from "../main_content/SectionAbout";
 
 function MainContent() {
   return (
-    <main>
-      <h1>En stund för dig med holistisk massage i centrala Stockholm</h1>
+    <main className="m-10">
+      <section>
+        <h1>En stund för dig med holistisk massage i centrala Stockholm</h1>
+      </section>
       <SectionHolistiskHealth />
       <SectionTreatments />
       <SectionPrices />
