@@ -4,7 +4,7 @@
 
 import React, { useState, useCallback } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import Logo from "../assets/logo/LogoDark.svg";
+import Logo from "../assets/logo/LogoMixed.svg";
 import SidebarMenu from "./SidebarMenu";
 import SwitchLanguageButton from "./SwitchLanguageButton";
 
@@ -24,12 +24,12 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md">
-      <nav className="flex lg:items-center items-start justify-between py-6 px-5 tracking-wide">
+      <nav className="flex lg:items-center items-start justify-between py-7 px-5 lg:px-16 tracking-wide">
         {/* Company Logo */}
         <img src={Logo} alt="Company Logo" width="210" height="50" />
 
         {/* Menu Button for small screens */}
-        <div className="lg:hidden flex flex-col items-end w-100%">
+        <div className="lg:hidden flex flex-col items-end w-100%  text-font-light">
           <MenuButton toggleMenu={toggleMenu} />
         </div>
 

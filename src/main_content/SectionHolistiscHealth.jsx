@@ -1,6 +1,13 @@
-function SectionHolistiskHealth() {
+function SectionHolistiscHealth() {
   return (
-    <section>
+    <section
+      // style={{
+      //   backgroundImage: ' url("./images/holistic_image.jpg")',
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundPosition: "right top",
+      // }}
+      className="bg-cover flex flex-col justify-center items-center md:py-44 "
+    >
       <h2>Holistisk Hälsa</h2>
       <p>
         Holistisk terapi innefattar ett helhetsgrepp som innebär att
@@ -17,7 +24,12 @@ function SectionHolistiskHealth() {
         Varje behandling anpassas individuellt, och vi bestämmer tillsammans hur
         många sessioner som passar bäst för dig.
       </p>
+      <img
+        src="./images/holistic_image.jpg"
+        alt="Image of Mudra body position"
+        className="w-"
+      />
     </section>
   );
 }
-export default SectionHolistiskHealth;
+export default SectionHolistiscHealth;

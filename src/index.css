@@ -4,40 +4,39 @@
 
 @layer base {
   h1 {
-    @apply font-medium  tracking-wider text-3xl sm:text-5xl uppercase text-center mt-10 mb-14;
+    @apply font-medium tracking-normal sm:tracking-wider text-3xl md:text-5xl uppercase text-center lg:text-left mt-28 lg:mr-32;
   }
   h2 {
-    @apply tracking-wider text-2xl sm:text-4xl  uppercase mb-5;
+    @apply sm:tracking-wider text-2xl sm:text-3xl uppercase text-center my-10;
   }
   h3 {
-    @apply font-medium tracking-wider text-2xl sm:text-3xl uppercase text-center mt-6 mb-10;
+    @apply font-medium tracking-wider text-2xl sm:text-3xl uppercase text-center  mb-10;
   }
   h4 {
-    @apply font-bold tracking-wider text-lg sm:text-xl  uppercase text-center mt-6 mb-5;
+    @apply font-bold tracking-wider text-lg sm:text-xl  uppercase text-center  mb-5;
   }
   p {
-    @apply text-base sm:text-xl pt-5;
+    @apply text-base sm:text-xl mb-4 mx-5;
   }
 }
 
-/* Defolt style*/
+/* Deault style*/
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
-  font-size: 1rem;
 }
 
 body {
-  background-color: #fdf3e8;
-  padding-top: 5rem;
-  color: #1f3433;
+  background-color: rgba(253, 243, 232, 1);
+  color: rgba(31, 52, 51, 1);
   font-family: "Noto+Sans+Symbols", Arial, Helvetica, sans-serif;
-  line-height: 1.4;
+  font-size: 1rem;
 }
 
 h1,
@@ -47,6 +46,7 @@ h4,
 h5,
 h6 {
   font-family: "Amiro", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
 }
 
 ul,

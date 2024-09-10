@@ -1,5 +1,5 @@
 // - - - - - - - - - - - - - - - - - - - -
-//This is sidebar menu for small screens implemented in Header.jsx
+//This is the sidebar menu for small screens implemented in Header.jsx
 // - - - - - - - - - - - - - - - - - - - -
 
 import { HiOutlineX } from "react-icons/hi";
@@ -8,7 +8,7 @@ import SwitchLanguageButton from "./SwitchLanguageButton";
 const SidebarMenu = ({ isOpen, onClose, handleMenuItemClick }) => {
   return (
     <nav
-      className={`fixed inset-0  p-5 pl-10 flex flex-col items-start h-dvh bg-accent text-background transform ${
+      className={`fixed inset-0  py-7 px-5 pl-10 flex flex-col items-start h-dvh overflow-auto bg-accent text-font-light transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
       } transition-transform duration-500 ease-in-out`}
     >

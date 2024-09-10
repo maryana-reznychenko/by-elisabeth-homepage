@@ -78,6 +78,21 @@ function Footer() {
         <GetCurrentYear />
         <p>
           <small>
+            The images used on this page are
+            <a
+              href="https://www.freepik.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Designed by Freepik.
+            </a>
+          </small>
+        </p>
+        <p>
+          <small>Elisabeth's photo is private.</small>
+        </p>
+        <p>
+          <small>
             Created by
             <a
               href="https://www.linkedin.com/in/maryana-reznychenko-255666154/"

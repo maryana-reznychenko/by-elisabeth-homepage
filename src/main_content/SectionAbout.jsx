@@ -7,14 +7,14 @@ function SectionAbout() {
     <section>
       <h2>Om Mig</h2>
       <h3>Hejsan och varmt välkommen hit!</h3>
-      <div className="w-auto h-auto bg-background">
+      <div className="w-auto h-auto ">
         <LazyLoadImage
           src={Elisabeth_photo}
-          alt="Elisabeth photo"
+          alt="Elisabeth's original photo"
           width="300"
           height="400"
           loading="lazy"
-          className="lg:h-[533px] lg:w-[400px] m-auto object-cover shadow-lg shadow-[#1f3433]/50 rounded "
+          className="lg:h-[533px] lg:w-[400px] m-auto object-cover shadow-lg shadow-[#1f3433]/50 rounded-xl "
         />
       </div>
       <p>

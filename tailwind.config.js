@@ -5,13 +5,15 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
+
+
     colors: {
-      'font-main': '#1F3433',
-      'font-light': '#F9F0E8',
-      'font-inactive': '#9D9995',
-      'accent': '#1B3231',
-      'main': 'FDF3E8',
-      'background': '#FDF3E8'
+      'font-main': 'rgba(31, 52, 51, 1)',
+      'font-light': 'rgba(249, 240, 232, 1)',
+      'font-inactive': 'rgba(157, 153, 149, 1)',
+      'accent': 'rgba(27, 50, 49, 1)',
+      'main': 'rgba(253, 243, 232, 1)',
+      'on-scroll-btn': 'rgba(253, 243, 232, 0.50)'
     },
     extend: {
       fontFamily: {
