@@ -12,6 +12,7 @@ export default {
       'font-light': 'rgba(249, 240, 232, 1)',
       'font-inactive': 'rgba(157, 153, 149, 1)',
       'accent': 'rgba(27, 50, 49, 1)',
+      'accent-light': 'rgba(224, 200, 178, 1)',
       'main': 'rgba(253, 243, 232, 1)',
       'on-scroll-btn': 'rgba(253, 243, 232, 0.50)'
     },

@@ -35,7 +35,7 @@ const SidebarMenu = ({ isOpen, onClose, handleMenuItemClick }) => {
           <a href="#">• om mig</a>
         </li>
         <li className="mt-2">
-          <p>adress:</p>
+          <p className="m-0">adress:</p>
           <a
             href="https://www.google.com/maps/place/Kornhamnstorg+49,+111+27+Stockholm/@59.3230395,18.0686441,17z/data=!3m1!4b1!4m6!3m5!1s0x465f77e2e27606a5:0xc291581af3d4c480!8m2!3d59.3230395!4d18.071219!16s%2Fg%2F11c2hpws0_?entry=ttu&g_ep=EgoyMDI0MDkwMi4xIKXMDSoASAFQAw%3D%3D"
             target="_blank"
@@ -46,7 +46,7 @@ const SidebarMenu = ({ isOpen, onClose, handleMenuItemClick }) => {
           </a>
         </li>
         <li>
-          <p>öppettider:</p>
+          <p className="m-0">öppettider:</p>
           <a
             href="https://www.bokadirekt.se/places/skonhet-och-halsa-52698"
             target="_blank"

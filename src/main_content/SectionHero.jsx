@@ -10,7 +10,7 @@ const SectionHero = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right top",
       }}
-      className="bg-cover bg-font-inactive h-lvh pt-5 px-5 lg:px-48 flex flex-col justify-center items-center lg:items-start overflow-auto text-font-light "
+      className="bg-cover bg-font-inactive h-lvh pt-5 px-5 lg:px-48 flex flex-col justify-center items-center lg:items-start overflow-auto text-font-light"
     >
       <h1>En stund för dig med holistisk massage i centrala Stockholm</h1>
 
