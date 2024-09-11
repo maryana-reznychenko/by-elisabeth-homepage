@@ -6,7 +6,7 @@ const SectionHero = () => {
     <section
       style={{
         backgroundImage:
-          'linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1)), url("./images/bg2.jpg")',
+          'linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1)), url("./images/bg.jpg")',
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right top",
       }}

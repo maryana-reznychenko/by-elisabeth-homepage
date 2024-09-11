@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "image": "/images/treatment_images/massage.webp",
+    "title": "massage",
+    "subtitle": "holistisk | avslapnande  | klassisk ",
+    "text": "Holistisk massage innebär att jag använder klassiska drag, akupressur och tar bort olika spänningar i kroppen. \n Jag masserar med varm olja för att kroppen ska kunna slappna av, energiflödet och den självläkande kraften ökar. \nEfter behandlingen kommer du att känna dig avslappnad, lugn och tillfreds i din kropp. \nAvslapnade massage är skön, avstressande och avkopplande behandling som jag rekommenderar för de som vill nå bättre hälsa. \nKlassisk massage löser upp muskler, ökar blodcirkulation och ger dig en stund av behaglig avkoppling."
+  },
+
+  {
+    "id": 1,
+    "image": "/images/treatment_images/hotstone.webp",
+    "title": "hot stone massage",
+    "subtitle": "",
+    "text": "Holistisk hotstone massage utförs med handslipade och polerade lava stenar som är uppvärmda i varm vatten. \nVarma lava stenar löser upp spänningar i kroppen och ger avslappning och njutning för alla sinne, förbättrar lymfflödet och blodcirkulation samt hjälper till transportera bort toxiner och slaggprodukter. \nBehandlingen utförs för hela kroppen och ansikte och avslutas med skalpmassage."
+  },
+  {
+    "id": 2,
+    "image": "/images/treatment_images/face_treatment.webp",
+    "title": "ansiktbehandling",
+    "subtitle": "holistisk | hot stone",
+    "text": "Holistik ansiktsbehandling med Gua-sha stenar gjorda av naturel kristal rosenkvarts användes för bättre blod och lymfa cirkulation, jämnar huden och har lyftande verkan. \n I behandlingen används ekologiska, milda ansiktsprodukter och oljor. Behandlingen passar till alla hudtyper. \nHotstone ansiktsmassage är välgörande, avslappnande behandling för ansikte, hals och nacke där  använder jag varma lavastenar. Den här behandlingen hjälper ansiktsmusklerna och käken att slappna av. \nI alla ansiktbehandlingar utförs först  ansiktsrengöring och peeling med ekologiska produkter, sen ansiktsmassage med varm ekologisk ansiktsolja, därefter masseras ansikte, hals och nacke   och fortsätter med skalp-massage. Avslutas att massera ansiktet med serum, ögonkräm och ansiktskräm."
+  },
+  {
+    "id": 3,
+    "image": "/images/treatment_images/zone_therapy.webp",
+    "title": "zone therapy med fot massage",
+    "subtitle": "balansera kroppens meredianer",
+    "text": "Zonterapi med stämgafflar är alternativmedicinsk metod som används för att sända vibrationer till olika zonterapi punkter ( meridianer) som finns underfötterna. \nOlika organ och kroppsdelar stimuleras med hjälp av vibrationer som kommer från stämgaffeln Energibalansen i hela kroppen återskapas. \nBehandlingen avslutas med en behaglig fotmassage med essentiela oljor."
+  },
+  {
+    "id": 4,
+    "image": "/images/treatment_images/health_care_support.webp",
+    "title": "massage hälsoresurs",
+    "subtitle": "på ditt friskvårdkonto",
+    "text": "Som Hälsoresurs kund kan du boka din massage via Bokadirekt appen."
+  },
+  {
+    "id": 5,
+    "image": "/images/treatment_images/chakrabalans.webp",
+    "title": "chakrabalansering",
+    "subtitle": "med Stämgafflar",
+    "text": "Chakrabalansering är en behandling som återskapar balans och harmoni i kroppens energicenter-chakror. \nPå varje chakra använder jag olika stämgafflar som har anpassade vibration (frekvens) till varje chakra. Blockeringar befrias från olika kroppens organer, system, varje cell. \nBehandling har djupverkande läkande verkan både fysisk, psykiskt och emotionell. \nEfter behandlingen får du känsla av lugnt och ro och välbefinnande."
+  },
+  {
+    "id": 6,
+    "image": "/images/treatment_images/beauty_service.webp",
+    "title": "shönhet",
+    "subtitle": "frans och bryn",
+    "text": "Jag hjälper dig gärna att forma, färja dina ögonbryn och ögonfransar. Detta gör jag med naturliga  produkter  som passar din färgnyans."
+  }
+]
