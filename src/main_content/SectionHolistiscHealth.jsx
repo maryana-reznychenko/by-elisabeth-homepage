@@ -30,7 +30,7 @@ function SectionHolistiscHealth() {
       <img
         src="./images/holistic_image.jpg"
         alt="Image of Mudra body position"
-        width="full"
+        width="1000"
         height="200"
         className="md:hidden"
       />

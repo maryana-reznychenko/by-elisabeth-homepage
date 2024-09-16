@@ -4,7 +4,7 @@
 
 import React, { useState, useCallback } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import Logo from "../assets/logo/LogoMixed.svg";
+import Logo from "../../public/logo/LogoMixed.svg";
 import SidebarMenu from "./SidebarMenu";
 import SwitchLanguageButton from "./SwitchLanguageButton";
 

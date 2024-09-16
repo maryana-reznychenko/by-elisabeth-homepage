@@ -12,11 +12,8 @@
   h3 {
     @apply text-lg sm:text-2xl uppercase text-center px-5 pb-5 md:pb-10;
   }
-  h4 {
-    @apply font-bold tracking-wider text-lg sm:text-xl  uppercase text-center  mb-5;
-  }
   p {
-    @apply text-base sm:text-xl mb-4 mx-5;
+    @apply text-base sm:text-xl pb-4 mx-5;
   }
 }
 
@@ -33,7 +30,7 @@ html {
 }
 
 body {
-  background-color: rgba(253, 243, 232, 1);
+  background-color: rgba(253, 252, 238, 1);
   color: rgba(31, 52, 51, 1);
   font-family: "Noto+Sans+Symbols", Arial, Helvetica, sans-serif;
   font-size: 1rem;

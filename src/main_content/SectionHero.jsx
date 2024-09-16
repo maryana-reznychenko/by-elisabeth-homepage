@@ -12,11 +12,14 @@ const SectionHero = () => {
       }}
       className="bg-cover bg-font-inactive h-lvh pt-5 px-5 lg:px-48 flex flex-col justify-center items-center lg:items-start overflow-auto text-font-light"
     >
-      <h1>En stund för dig med holistisk massage i centrala Stockholm</h1>
+      <h1>
+        Holistisk massage på <strong>Skönhet och Hälsa</strong> i centrala
+        Stockholm
+      </h1>
 
       <h2 className="hidden md:block lg:text-left normal-case lg:mr-32">
-        Massagebehandling för dig som vill uppnå djup avkoppling i kroppen och
-        hitta harmony i själlan
+        Behandlingen för dig som vill uppnå djup avkoppling i kroppen och hitta
+        harmony i själlan
       </h2>
       <div className="pt-10 sm:pt-5 flex flex-col align-baseline  lg:flex-row gap-10 ">
         <ButtonOnScroll />
