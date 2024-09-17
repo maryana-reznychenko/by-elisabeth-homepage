@@ -4,7 +4,7 @@ import ButtonCTA from "../components/ButtonCTA";
 const SectionHero = () => {
   return (
     <section
-      id="/"
+      id="home"
       style={{
         backgroundImage:
           'linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("./images/bg.jpg")',

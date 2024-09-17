@@ -39,6 +39,7 @@ const Header = () => {
           width="210"
           height="50"
           onClick={scrollToTheTop}
+          className="cursor-pointer"
         />
 
         {/* Menu Button for small screens */}

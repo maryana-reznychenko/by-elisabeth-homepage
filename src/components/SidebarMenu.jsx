@@ -31,7 +31,7 @@ const SidebarMenu = ({ isOpen, onClose, handleMenuItemClick }) => {
           <HiOutlineX size="2rem" />
         </button>
       </div>
-      <ul className="flex flex-col mt-14 gap-5 font-arimo text-2xl uppercase tracking-tight ">
+      <ul className="flex flex-col mt-14 md:pl-5 gap-5 font-arimo text-2xl uppercase tracking-tight ">
         <li onClick={handleMenuItemClick}>
           <a href="#holistic-health">• holistisk hälsa</a>
         </li>
