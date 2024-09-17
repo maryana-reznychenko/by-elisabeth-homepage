@@ -27,7 +27,15 @@ function SectionVisitRules() {
           behandlingen omedelbart utan återbetalning.
         </p>
       </section>
-      <div className="bg-accent w-1/2 md:w-1/3 h-64 md:h-[300px] ml-auto mt-48 rounded-l-full md:rounded-full"></div>
+      {/* <div className="bg-accent w-1/2 md:w-1/3 h-64 md:h-[300px] ml-auto mt-48 rounded-l-full md:rounded-full"></div> */}
+
+      <img
+        src="./images/the-figure.svg"
+        alt="the green figure"
+        width="250"
+        height="300"
+        className="mt-20 md:w-[400px] md:h-[500px] ml-auto"
+      />
     </section>
   );
 }

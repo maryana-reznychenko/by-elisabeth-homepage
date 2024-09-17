@@ -45,7 +45,7 @@ function SectionAbout() {
         inte bara läker kroppen, utan även lyfter själen.
       </p>
       <h4>Du är alltid välkommen att boka en tid hos mig</h4>
-      <div className=" bg-[#576A5F] py-5 md:py-10 rounded-b-[30%] md:rounded-none ">
+      <div className="w-screen lg:-mx-48 bg-[#576A5F] py-5 md:py-10 rounded-b-[30%] md:rounded-none ">
         <ButtonCTA />
       </div>
 
