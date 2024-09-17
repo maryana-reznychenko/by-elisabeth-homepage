@@ -6,14 +6,14 @@ const SectionHero = () => {
     <section
       style={{
         backgroundImage:
-          'linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1)), url("./images/bg.jpg")',
+          'linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("./images/bg.jpg")',
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right top",
       }}
-      className="bg-cover bg-font-inactive h-lvh pt-5 px-5 lg:px-48 flex flex-col justify-center items-center lg:items-start overflow-auto text-font-light"
+      className="bg-fixed bg-cover bg-font-inactive h-lvh pt-5 px-5 lg:px-48 flex flex-col justify-center items-center lg:items-start overflow-auto text-font-light"
     >
       <h1>
-        Holistisk massage på <strong>Skönhet och Hälsa</strong> i centrala
+        Holistisk massage på <strong>Sönhet och Hälsa</strong> i centrala
         Stockholm
       </h1>
 

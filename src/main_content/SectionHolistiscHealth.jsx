@@ -1,12 +1,7 @@
 function SectionHolistiscHealth() {
   return (
     <section
-      // style={{
-      //   backgroundImage: 'url("./images/holistic_image.jpg")',
-      //   backgroundRepeat: "no-repeat",
-      //   backgroundPosition: "right top",
-      // }}
-      // className="bg-cover z-0 flex flex-col justify-center md:justify-end md:pb-72 md:items-end "
+      id="holistic-health"
       className="bg-none md:bg-[url('./images/holistic_image.jpg')] md:bg-cover md:bg-no-repeat md:bg-right-top z-0 flex flex-col justify-center md:justify-end md:pb-72 md:items-end"
     >
       <div className="backdrop-blur-sm flex flex-col  md:w-2/5 md:mr-10">

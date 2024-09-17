@@ -1,13 +1,13 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Elisabeth_photo from "../assets/Elisabeth_photo.webp";
 import ButtonCTA from "../components/ButtonCTA";
-
+import Logo from "../../public/logo/LogoDark.svg";
 function SectionAbout() {
   return (
-    <section>
+    <section id="about" className="flex flex-col lg:px-48">
       <h2>Om Mig</h2>
       <h3>Hejsan och varmt välkommen hit!</h3>
-      <div className="w-auto h-auto ">
+      <div className="w-auto h-auto pb-5 ">
         <LazyLoadImage
           src={Elisabeth_photo}
           alt="Elisabeth's original photo"
@@ -18,8 +18,8 @@ function SectionAbout() {
         />
       </div>
       <p>
-        Jag heter Elisabeth, och det gläder mig att du har hittat till Skönhet
-        och Hälsa.
+        Jag heter Elisabeth, och det gläder mig att du har hittat till{" "}
+        <strong>Skönhet och Hälsa</strong>.
       </p>
       <p>
         Med över 20 års erfarenhet som hudterapeut och massör, samt de senaste
@@ -42,15 +42,15 @@ function SectionAbout() {
         Välkommen att uppleva den holistiska hälsans kraft där varje beröring
         inte bara läker kroppen, utan även lyfter själen.
       </p>
-      <div>
-        <h3>Du är alltid välkommen att boka en tid hos mig </h3>
+      <h4>Du är alltid välkommen att boka en tid hos mig</h4>
+      <div className=" bg-[#576A5F] py-5 md:py-10 rounded-b-[30%] md:rounded-none ">
         <ButtonCTA />
       </div>
-      <div>
-        <p>Varma hälsningar,</p>
+
+      <div className="m-auto md:ml-5 py-10 ">
+        <p className="m-0 p-0">Varma hälsningar,</p>
+        <img src={Logo} alt="Company Logo" width="300" height="50" />
       </div>
-      <p>Skönhet och Hälsa</p>
-      <p>by Elisabeth</p>
     </section>
   );
 }
