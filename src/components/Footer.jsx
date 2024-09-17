@@ -84,7 +84,7 @@ function Footer() {
             >
               Designed by Freepik.
             </a>{" "}
-            Elisabeth's photo is a private.
+            Elisabeth's photo is private.
           </small>
         </p>
 
