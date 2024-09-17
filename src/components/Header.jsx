@@ -5,8 +5,8 @@
 import React, { useState, useCallback } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import Logo from "../../public/logo/LogoMixed.svg";
+import scrollToTheTop from "../helpers/scrollToTheTop";
 import SidebarMenu from "./SidebarMenu";
-import SwitchLanguageButton from "./SwitchLanguageButton";
 
 const MenuButton = ({ isOpen, toggleMenu }) => (
   <button onClick={toggleMenu}>
@@ -22,11 +22,24 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const scrollToHeroSection = () => {
+    const heroSection = document.getElementById("/");
+    if (heroSection) {
+      heroSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md">
       <nav className="flex lg:items-center items-start justify-between py-7 px-5 lg:px-16 tracking-wide">
         {/* Company Logo */}
-        <img src={Logo} alt="Company Logo" width="210" height="50" />
+        <img
+          src={Logo}
+          alt="Company Logo"
+          width="210"
+          height="50"
+          onClick={scrollToTheTop}
+        />
 
         {/* Menu Button for small screens */}
         <div className="lg:hidden flex flex-col items-end w-100%  text-font-light">
@@ -36,22 +49,19 @@ const Header = () => {
         {/* Navigation Links for large screens */}
         <ul className="hidden lg:flex gap-5 font-arimo text-lg uppercase tracking-tight ">
           <li>
-            <a href="#">holistisk hälsa</a>
+            <a href="#holistic-health">holistisk hälsa</a>
           </li>
           <li>
-            <a href="#">behandlingar</a>
+            <a href="#services">behandlingar</a>
           </li>
           <li>
-            <a href="#">priser</a>
+            <a href="#prices">priser</a>
           </li>
           <li>
-            <a href="#">ditt besök</a>
+            <a href="#your-visit">ditt besök</a>
           </li>
           <li>
-            <a href="#">om mig</a>
-          </li>
-          <li>
-            <SwitchLanguageButton />
+            <a href="#about">om mig</a>
           </li>
         </ul>
       </nav>

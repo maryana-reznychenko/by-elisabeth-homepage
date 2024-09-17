@@ -2,6 +2,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import Elisabeth_photo from "../assets/Elisabeth_photo.webp";
 import ButtonCTA from "../components/ButtonCTA";
 import Logo from "../../public/logo/LogoDark.svg";
+import scrollToTheTop from "../helpers/scrollToTheTop";
+
 function SectionAbout() {
   return (
     <section id="about" className="flex flex-col lg:px-48">
@@ -49,7 +51,13 @@ function SectionAbout() {
 
       <div className="m-auto md:ml-5 py-10 ">
         <p className="m-0 p-0">Varma hälsningar,</p>
-        <img src={Logo} alt="Company Logo" width="300" height="50" />
+        <img
+          src={Logo}
+          alt="Company Logo"
+          width="300"
+          height="50"
+          onClick={scrollToTheTop}
+        />
       </div>
     </section>
   );

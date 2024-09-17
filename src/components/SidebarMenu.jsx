@@ -3,36 +3,49 @@
 // - - - - - - - - - - - - - - - - - - - -
 
 import { HiOutlineX } from "react-icons/hi";
-import SwitchLanguageButton from "./SwitchLanguageButton";
+import Logo from "../../public/logo/LogoLight.svg";
+import scrollToTheTop from "../helpers/scrollToTheTop";
 
 const SidebarMenu = ({ isOpen, onClose, handleMenuItemClick }) => {
+  const handleLogoClick = () => {
+    onClose(); // Close the menu
+    scrollToTheTop(); // Scroll to the top of the page
+  };
+
   return (
     <nav
-      className={`fixed inset-0  py-7 px-5 pl-10 flex flex-col items-start h-dvh overflow-auto bg-accent text-font-light transform ${
+      className={`fixed inset-0  py-7 px-5 flex flex-col items-start h-dvh overflow-auto bg-accent text-font-light transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
       } transition-transform duration-500 ease-in-out`}
     >
       <div className="w-full flex justify-between">
-        <SwitchLanguageButton />
+        <img
+          src={Logo}
+          alt="Company Logo"
+          width="210"
+          height="50"
+          onClick={handleLogoClick}
+        />
+
         <button onClick={onClose}>
           <HiOutlineX size="2rem" />
         </button>
       </div>
       <ul className="flex flex-col mt-14 gap-5 font-arimo text-2xl uppercase tracking-tight ">
         <li onClick={handleMenuItemClick}>
-          <a href="#">• holistisk hälsa</a>
+          <a href="#holistic-health">• holistisk hälsa</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#">• behandlingar</a>
+          <a href="#services">• behandlingar</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#">• priser</a>
+          <a href="#prices">• priser</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#">• ditt besök</a>
+          <a href="#your-visit">• ditt besök</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#">• om mig</a>
+          <a href="#about">• om mig</a>
         </li>
         <li className="mt-5">
           <p className="m-0 pb-0">adress:</p>
