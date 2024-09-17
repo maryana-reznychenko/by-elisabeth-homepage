@@ -1,8 +1,27 @@
+import { useEffect, useState } from "react";
+import BgImage from "../../public/images/holistic_image.jpg";
+
 function SectionHolistiscHealth() {
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  // Set background only for larger screens (md and above)
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    setIsLargeScreen(mediaQuery.matches);
+
+    const handleResize = () => setIsLargeScreen(mediaQuery.matches);
+    mediaQuery.addEventListener("change", handleResize);
+
+    return () => mediaQuery.removeEventListener("change", handleResize);
+  }, []);
+
   return (
     <section
       id="holistic-health"
-      className="bg-none md:bg-[url('./images/holistic_image.jpg')] md:bg-cover md:bg-no-repeat md:bg-right-top z-0 flex flex-col justify-center md:justify-end md:pb-72 md:items-end"
+      style={{
+        backgroundImage: isLargeScreen ? `url(${BgImage})` : "none",
+      }}
+      className="bg-none md:bg-cover md:bg-no-repeat md:bg-right-top z-0 flex flex-col justify-center md:justify-end md:pb-72 md:items-end"
     >
       <div className="backdrop-blur-sm flex flex-col  md:w-2/5 md:mr-10">
         <h2>Holistisk Hälsa</h2>
@@ -32,4 +51,5 @@ function SectionHolistiscHealth() {
     </section>
   );
 }
+
 export default SectionHolistiscHealth;
