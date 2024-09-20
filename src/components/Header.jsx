@@ -11,6 +11,7 @@ import SidebarMenu from "./SidebarMenu";
 const MenuButton = ({ isOpen, toggleMenu }) => (
   <button onClick={toggleMenu}>
     <HiOutlineMenuAlt3 size="2rem" />
+    <span className="hidden">menu</span>
   </button>
 );
 
