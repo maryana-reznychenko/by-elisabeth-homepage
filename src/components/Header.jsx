@@ -9,9 +9,9 @@ import scrollToTheTop from "../helpers/scrollToTheTop";
 import SidebarMenu from "./SidebarMenu";
 
 const MenuButton = ({ isOpen, toggleMenu }) => (
-  <button onClick={toggleMenu}>
+  <button onClick={toggleMenu} className="text-xs">
     <HiOutlineMenuAlt3 size="2rem" />
-    <span className="hidden">menu</span>
+    menu
   </button>
 );
 
