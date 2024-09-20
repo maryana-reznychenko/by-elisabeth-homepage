@@ -1,6 +1,6 @@
 function SectionVisitRules() {
   return (
-    <section id="your-visit" className="relative m-auto pt-5  lg:px-48">
+    <section id="ditt-besok" className="relative m-auto pt-5  lg:px-48">
       <div
         style={{
           backgroundImage: 'url("./images/your_visit_image.jpg")',

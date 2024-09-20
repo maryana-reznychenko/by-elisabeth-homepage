@@ -5,7 +5,7 @@ import { services } from "../data/services_data.json";
 
 function SectionServices() {
   return (
-    <section id="services" className="h-full flex flex-col justify-center ">
+    <section id="behandlingar" className="h-full flex flex-col justify-center ">
       <h2>Behandlingar</h2>
       <h3>här får du hitta allt vad skulle du behöva för din kropp och själ</h3>
       <Services data={services} />

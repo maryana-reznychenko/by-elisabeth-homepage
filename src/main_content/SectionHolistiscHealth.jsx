@@ -17,7 +17,7 @@ function SectionHolistiscHealth() {
 
   return (
     <section
-      id="holistic-health"
+      id="holistisk-halsa"
       style={{
         backgroundImage: isLargeScreen ? `url(${BgImage})` : "none",
       }}

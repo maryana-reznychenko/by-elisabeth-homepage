@@ -1,6 +1,6 @@
 function SectionPrices() {
   return (
-    <section id="prices" className="flex flex-col items-center md:text-center">
+    <section id="priser" className="flex flex-col items-center md:text-center">
       <h2>Priser & Presentkort</h2>
       <p>Priserna varierar beroende på vilken behandling du väljer.</p>
       <p>

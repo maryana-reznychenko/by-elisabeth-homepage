@@ -6,7 +6,7 @@ import scrollToTheTop from "../helpers/scrollToTheTop";
 
 function SectionAbout() {
   return (
-    <section id="about" className="flex flex-col lg:px-48">
+    <section id="om-mig" className="flex flex-col lg:px-48">
       <h2>Om Mig</h2>
       <h3>Hejsan och varmt välkommen hit!</h3>
       <div className="w-auto h-auto pb-5 ">

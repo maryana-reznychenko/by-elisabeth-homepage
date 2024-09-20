@@ -33,6 +33,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md">
       <nav className="flex lg:items-center items-start justify-between py-7 px-5 lg:px-16 tracking-wide">
         {/* Company Logo */}
+
         <img
           src={Logo}
           alt="Company Logo"
@@ -50,19 +51,19 @@ const Header = () => {
         {/* Navigation Links for large screens */}
         <ul className="hidden lg:flex gap-5 font-arimo text-lg uppercase tracking-tight ">
           <li>
-            <a href="#holistic-health">holistisk hälsa</a>
+            <a href="#holistisk-halsa">holistisk hälsa</a>
           </li>
           <li>
-            <a href="#services">behandlingar</a>
+            <a href="#behandlingar">behandlingar</a>
           </li>
           <li>
-            <a href="#prices">priser</a>
+            <a href="#priser">priser</a>
           </li>
           <li>
-            <a href="#your-visit">ditt besök</a>
+            <a href="#ditt-besok">ditt besök</a>
           </li>
           <li>
-            <a href="#about">om mig</a>
+            <a href="#om-mig">om mig</a>
           </li>
         </ul>
       </nav>

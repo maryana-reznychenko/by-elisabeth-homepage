@@ -33,19 +33,19 @@ const SidebarMenu = ({ isOpen, onClose, handleMenuItemClick }) => {
       </div>
       <ul className="flex flex-col mt-14 md:pl-5 gap-5 font-arimo text-2xl uppercase tracking-tight ">
         <li onClick={handleMenuItemClick}>
-          <a href="#holistic-health">• holistisk hälsa</a>
+          <a href="#holistisk-halsa">• holistisk hälsa</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#services">• behandlingar</a>
+          <a href="#behandlingar">• behandlingar</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#prices">• priser</a>
+          <a href="#priser">• priser</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#your-visit">• ditt besök</a>
+          <a href="#ditt-besok">• ditt besök</a>
         </li>
         <li onClick={handleMenuItemClick}>
-          <a href="#about">• om mig</a>
+          <a href="#om-mig">• om mig</a>
         </li>
         <li className="mt-5">
           <p className="m-0 pb-0">adress:</p>
