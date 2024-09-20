@@ -9,9 +9,8 @@ import scrollToTheTop from "../helpers/scrollToTheTop";
 import SidebarMenu from "./SidebarMenu";
 
 const MenuButton = ({ isOpen, toggleMenu }) => (
-  <button onClick={toggleMenu} className="text-xs">
+  <button onClick={toggleMenu}>
     <HiOutlineMenuAlt3 size="2rem" />
-    menu
   </button>
 );
 
@@ -21,13 +20,6 @@ const Header = () => {
 
   const handleMenuItemClick = () => {
     setIsMenuOpen(false);
-  };
-
-  const scrollToHeroSection = () => {
-    const heroSection = document.getElementById("/");
-    if (heroSection) {
-      heroSection.scrollIntoView({ behavior: "smooth" });
-    }
   };
 
   return (
