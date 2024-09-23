@@ -90,9 +90,11 @@ const Services = ({ data }) => {
             key={index}
             onClick={() => setSlide(index)}
             className={`${
-              slide === index ? "bg-accent" : "bg-white"
-            } h-3 w-3 rounded-full shadow-[0_0_5px_rgba(85,85,85,0.5)] mx-2`}
-          ></button>
+              slide === index ? "bg-accent " : "bg-white "
+            } h-3 w-3 rounded-full shadow-[0_0_5px_rgba(85,85,85,0.5)] mx-2 text-[transparent]`}
+          >
+            on
+          </button>
         ))}
       </div>
     </section>
