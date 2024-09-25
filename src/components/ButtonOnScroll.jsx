@@ -1,7 +1,7 @@
 import React from "react";
 
 function handleOnScroll() {
-  const section = document.getElementById("holistic-health");
+  const section = document.getElementById("holistisk-halsa");
   if (section) {
     section.scrollIntoView({ behavior: "smooth" });
   }
