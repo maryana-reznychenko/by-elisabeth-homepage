@@ -18,11 +18,11 @@ function Footer() {
         <ul className="flex flex-col items-center gap-5 text-lg">
           <li>
             <a
-              href="https://www.google.com/maps/place/Kornhamnstorg+49,+111+27+Stockholm/@59.3230395,18.0686441,17z/data=!3m1!4b1!4m6!3m5!1s0x465f77e2e27606a5:0xc291581af3d4c480!8m2!3d59.3230395!4d18.071219!16s%2Fg%2F11c2hpws0_?entry=ttu&g_ep=EgoyMDI0MDkwMi4xIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/@59.306233,18.0293704,3a,75y,4.71h,90t/data=!3m7!1e1!3m5!1spKQ3LqVX_YVjisIONn8YVg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DpKQ3LqVX_YVjisIONn8YVg%26yaw%3D4.7062254!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Kornhamnstorg 49 111 27 Stockholm
+              Fredsborgsgatan 21, 117 58 Stockholm
             </a>
           </li>
 
@@ -92,13 +92,13 @@ function Footer() {
           <GetCurrentYear />
           <p>
             <small>
-              Created by{" "}
+              Created & developed by{" "}
               <a
-                href="https://www.linkedin.com/in/maryana-reznychenko-255666154/"
+                href="https://www.linkedin.com/in/marianna-reznychenko-255666154/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Maryana.R
+                Marianna.R
               </a>
             </small>
           </p>

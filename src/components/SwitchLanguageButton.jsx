@@ -1,7 +1,7 @@
 // - - - - - - - - - - - - - - - - - - - -
 //This is the button component to switch language
 
-// This component has no priority for the first realise
+// This component has NO PRIORITY for the first realise
 // - - - - - - - - - - - - - - - - - - - -
 
 const SwitchLanguageButton = () => {
